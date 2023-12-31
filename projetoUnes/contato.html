@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unes - Página principal</title>
+</head>
+<body background="imagens/fundo2.png" >
+
+      <table width="900px" align="center">
+           <tr>
+
+            <td height="89"><img src="imagens/logo.png" alt="">
+            </td>
+             
+            <td align="right">
+              <a href="index.html">Home</a>|
+              <a href="quem_somos.html">Quem somos</a>|
+              <a href="contato.html">Contato</td></a>
+           </tr>
+
+          
+             <form action="">
+           
+           <tr>
+              <td colspan="2">
+               
+                <h2>Login</h2>
+                <form action="processa.php">
+           
+                 Login: <br>
+                 <input type="text" name="login"> <br>
+                 Senha: <br>
+                 <input type="password" name="senha">
+                 <input type="submit" value="Logar"> <br>
+           
+           
+           
+                </form>
+              </td>
+           </tr>
+           <tr>
+            <td colspan="2">
+              
+
+              <form action="">
+
+                <h2>Cadastre-se</h2>
+                <hr>
+                Login: <br>
+                <input type="text" name="login" id="#"> <br><br>
+                Sexo: <br>
+                <!--colocar o mesmo name ,evita que as duas opçoes fiquem marcados-->
+                <input type="radio" name="sexo" value="M">Masculino <br>
+                <input type="radio" name="sexo" value="F">Feminino <br> <br>
+                Interesses: <br>
+                <input type="checkbox" name="" id="interesses"> Futebol <br>
+                <input type="checkbox" name="" id="interesses"> Cursos  <br>
+                <input type="checkbox" name="" id="interesses"> Filmes  <br>
+                Estado: <br>
+                <select name="estados" id="">
+                 <option value="sp">SP</option>
+                 <option value="mg">MG</option>
+                 <option value="pa">PA</option>
+                 <option value="ma">MA</option>
+                 <option value="ce">CE</option>
+                </select>
+                <br><br>
+                Observações: <br>
+                <textarea ></textarea>  <br>
+         
+                <input type="submit" value="Cadastre-se" id="">
+         
+                <hr>
+              </form>
+            </td>
+           </tr>
+
+           <tr>
+            <td colspan="2">
+           
+              <h4 align="center">Todos os direitos reservados</h4>
+            </td>
+           </tr>
+
+      </table>
+  
+</body>
+</html>
